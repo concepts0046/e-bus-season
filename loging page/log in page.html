@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Pass - Login page</title>
+    <link rel="stylesheet" href="sanner.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="quick pass logo 1.jpg" alt="Logo" class="logo">
+            <h1>Quick Pass</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Register</a>
+            <img src="transport14.jpg" alt="Profile" class="profile-icon">
+        </nav>
+    </header>
+    
+    <main class="lgmain">
+        <div class="login-container">
+            <div class="Login_form"> 
+                <h2 class="h1">Login into your account</h2>
+                <form action="action_page.php" method="post">
+                    <img class="logimg" src="g10.png" alt="Avatar">
+                    <div class="login_info">
+                        <label for="uname"><b>Username</b></label>
+                        <input class="in" type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="psw"><b>Password</b></label>
+                        <input class="in" type="password" placeholder="Enter Password" name="psw" required>
+                        <div class="remember-container">
+                            <input type="checkbox" checked="checked" name="remember">
+                            <label class="remember-label">Remember me</label>
+                        </div>
+                        <span class="psw"><a href="#"> Forget password?</a></span>
+                        <button type="submit">Login</button>
+                        <button type="button" class="cancelbtn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </main>
+</body>
+</html>
