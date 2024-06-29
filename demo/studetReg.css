@@ -1,0 +1,145 @@
+#form_container2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 150, 21);
+    /* align-items: center; */
+}
+
+.submission-message {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(6, 6, 6);
+    margin-left: 100px;
+}
+
+.additional-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.submitted-image {
+    display: block;
+    margin-top: 20px;
+    max-width: 1000px height: auto;
+}
+
+.red-div {
+    background-color: rgb(209, 247, 240);
+    height: 500px;
+    width: 1200px;
+    margin-top: 20px;
+    /* display: flex; */
+
+}
+
+.green-div {
+    /* background-color: rgb(21, 238, 79); */
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.blue-div {
+    /* background-color: rgb(35, 20, 245); */
+    height: 200px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.left-column-div {
+    /* background-color: aqua; */
+    width: 50%;
+    /* height: 80%; */
+}
+
+.right-column-div {
+    /* background-color: rgb(164, 82, 241); */
+    width: 50%;
+}
+
+.main-div {
+    /* background-color: rgb(204, 240, 77); */
+    height: 250px;
+    width: 1000px;
+
+    display: flex;
+}
+
+
+.image-class {
+    src: "";
+}
+
+.qr-code {
+    background-color: rgb(233, 121, 121);
+    height: 200px;
+}
+
+.payment-div {
+    /* background-color: blue; */
+    height: 200px;
+    margin-top: 20px;
+    align-items: last baseline;
+}
+
+.payment-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 100px;
+}
+
+.payment-btn {
+    display: inline-block;
+    background-color: #467192;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 450px;
+    font-weight: bold;
+
+
+}
+.QR-text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 100px;
+}
+.QR-btn{
+    display: inline-block;
+    background-color: #467192;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-weight: bold;
+    
+}

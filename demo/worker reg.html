@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="worker form.css">
+    <link rel="stylesheet" href="studetReg.css">
+
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    
+
+</head>
+
+<body>
+    <div class="background" id="form2_background">
+        <div class="nav_bar_background">
+            <div class="logo_name">
+                <img src="logo.jpeg" class="logo">
+                <p class="web_name">
+                    Quick Pass
+                </p>
+            </div>
+            <div class="nav_bar_text">
+                <ul class="navbar">
+                    <li><a href="index.html" class="a">Home</a></li>
+                    <li><a href="#" class="a">Contact</a></li>
+                    <li><a href="passenger type.html" class="a">Register</a></li>
+                    <li><a href="#" class="a"><button class="Log_in_button">Log In</button></a></li>
+                    <li><a href="#"><img src="profile.png" class="profile_image"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="form_container" style="height: 1000px;">
+            <div class="form_area">
+                <p class="content_topic">Register to create your season pass </p>
+                <p class="form_area_content">Passenger details</p>
+            </div>
+            <div class="div1">
+                <div style="width: 85%;height: 800px;  display: flex;  justify-content: center;" class="wrapper">
+                    <form action="include/signup.inc.php" onsubmit="takevalue(event)" method="post" class="form">
+
+                        <table>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Full Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="fullName" name="fullName">
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">E-mail:</label>
+                                </td>
+                                <td>
+                                    <input type="email" class="filling_area" name="email">
+                                </td>
+                            </tr>
+
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">User Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area text2" id="username" name="userName">
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">Password:</label>
+                                </td>
+                                <td>
+                                    <input type="password" class="filling_area" name="pwd">
+                                </td>
+                            </tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Contact Number:</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="Contact" name="contactNumber">
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">confirm password:</label>
+                                </td>
+                                <td>
+                                    <input type="password" class="filling_area" name="confirmPassword">
+                                </td>
+                            </tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">gender:</label>
+                                </td>
+                                <td>
+                                    <select name="gender" class="gender_selection_box">
+                                        <option>
+                                            Male
+                                        </option>
+                                        <option>
+                                            Female
+                                        </option>
+                                    </select>
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">Address:</label>
+                                </td>
+                                <td>
+                                    <textarea class="Address_area"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td style="position: absolute; margin-left: 290px;">
+                                    <p class="form_area_content" style="margin-top: 5px; margin-bottom: 50px;">Worker
+                                        Details</p>
+
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr style="height: 30px;"></tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">NIC Number: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="NIC" name="NIC">
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">DOB:</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area">
+                                </td>
+                            </tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Working Place: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="WorkingPlace" name="workingplace">
+                                </td>
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">Worker ID: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="WorkerId" name="workerid">
+                                </td>
+                                
+                            </tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Contact Number: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="ContactNumber" name="contactnumber">
+                                </td>
+                                
+                                
+                            </tr>
+ 
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td style="position: absolute; margin-left: 320px;">
+                                    <p class="form_area_content" style="margin-top: 5px; margin-bottom: 50px;">Route</p>
+
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr style="height: 30px;"></tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Starting point: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="startingpoint" name="startingPoint">
+                                </td>
+
+                                <td class="vertical-line"></td>
+                                <td>
+                                    <label class="form_area_content" id="form_text">Ending point: </label>
+                                </td>
+                                <td>
+                                    <input type="text" class="filling_area" id="endingpoint" name="endingPoint">
+                                </td>
+                            </tr>
+                            <tr class="form_table_tr">
+                                <td>
+                                    <label class="form_area_content" id="form_text">Distance:</label>
+                                </td>
+                                <td>
+                                    <input type="number" class="filling_area" id="distance" name="distance">
+                                </td>
+                            </tr>
+
+                            </tr>
+
+                            <tr>
+                                <td style="position: absolute; margin-left: 290px;">
+                                    <button name="submit" type="submit"
+                                        class="reg_button form_area_content generate-btn">Register
+                                        now</button>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </form>
+
+
+
+                    <script src="script.js">
+                        
+
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

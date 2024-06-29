@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buypage.css">
+
+
+<body>
+    <div class="background">
+        <div class="nav_bar_background">
+            <div class="logo_name">
+                <img src="logo.jpeg" class="logo">
+                <p class="web_name">
+                    Quick Pass
+                </p>
+            </div>
+            <div class="nav_bar_text">
+                <ul class="navbar">
+                    <li><a href="home.html" class="a">Home</a></li>
+                    <li><a href="contact.html" class="a">Contact</a></li>
+                    <li><a href="passenger type.html" class="a">Register</a></li>
+                    <li><a href="log in page.html" class="a"><button class="Log_in_button">Log In</button></a></li>
+                    <!-- <li><a href="#" ><img src="profile.png" class="profile_image"></a></li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="div2" style="position: absolute; margin-top: 120px; background-color: #C9FFFF; width: 1200px; height: 600px; border-radius: 20px;">
+
+            
+            <!-- <div class="div2"> -->
+                <h1 style="text-align: center;">Pay and Get your season</h1>
+                
+                <div clasees="form-container" style="width: 70%; margin-left: 160px; ">
+                    <form id="ticketForm">
+                        <div class="form-group"> 
+                            <label for="from">From</label>
+                            <input type="text" id="from" name="from" placeholder="Colombo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="to">To</label>
+                            <input type="text" id="to" name="to" placeholder="Kandy" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="startDate">Start date</label>
+                            <input type="date" id="startDate" name="startDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketOptions">Ticket options</label>
+                            <select id="ticketOptions" name="ticketOptions">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly</option>
+                                <option value="annually">Annually</option>
+                            </select>
+                        </div>
+                        <button type="submit" style="background-color: #3A5F7B;">Buy</button>
+                    </form>
+                </div>
+            <!-- </div> -->
+            
+
+            <script>
+                document.getElementById('ticketForm').addEventListener('submit', function (event) {
+                    event.preventDefault();
+                    const from = document.getElementById('from').value;
+                    const to = document.getElementById('to').value;
+                    const startDate = document.getElementById('startDate').value;
+                    const ticketOptions = document.getElementById('ticketOptions').value;
+
+                    alert(`From: ${from}\nTo: ${to}\nStart Date: ${startDate}\nTicket Options: ${ticketOptions}`);
+                });
+
+            </script>
+
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+</head>
+
+</html>

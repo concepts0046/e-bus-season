@@ -1,0 +1,118 @@
+.form_area{
+    width: 95%;
+    height: 90%;
+    background-color:rgb(214,248,251,255);
+    position: relative;
+    top: 25px;
+    border-radius:20px ;
+}
+.form_area_content{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /* margin-left: 1px; */
+}
+.div1{
+    top: 150px;
+    position: absolute;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#form_text{
+    text-align: left;
+}
+.filling_area{
+    width: 310px;
+    height: 25px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: blue; */
+}
+.form_table_tr{
+    /* padding-left: 10px;
+    margin-right: 10px; */
+    /* height: 35px;
+    margin-top: 100px;
+    margin-left: 20px; */
+}
+.gender_selection_box{
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.Address_area{
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: 10px;
+}
+.Workers_Details_div{
+    /* background-color: aliceblue; */
+    width: 96%;
+    height: 180px;
+    position: absolute;
+    top: 340px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Workers_Details_div1{
+    display: flex;
+    flex-direction: row;
+}
+#route_div{
+    top: 530px;
+    height: 130px;
+    /* margin-top: 100px; */
+}
+#route_left{
+    height: 60px;
+}
+.agree_registor_div{
+    width: 100%;
+    /* background-color: rgb(230, 106, 23); */
+    height: 130px;
+    position: absolute;
+    top: 670px;
+    width: 96%;
+
+}
+.check_style{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+.reg_button{
+    width: 500px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(58,95,123,255);
+    position: absolute;
+}
+#form_container{
+    height: 870px;
+}
+#form_background{
+    height: 970px;
+}
+.vertical-line {
+    border-left: 1px solid black; 
+    height:55px; 
+  }
+#form2_background{
+    height: 1050px;
+}
+  

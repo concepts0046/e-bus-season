@@ -1,0 +1,164 @@
+.background{
+    background-color: rgba(229,239,246,255);
+    width: 100%;
+    height: 1120px;
+    display: flex;
+    justify-content: center;
+}
+.nav_bar_background{
+    /* background-color: brown; */
+    width: 95%;
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.logo_name{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+}
+.web_name{
+    font-family: ;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav_bar_text{
+    position: absolute;
+    /* background-color: rgb(254, 151, 24); */
+    width: 75%;
+    height: 80Px;
+    margin-left: 20%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 30%;
+    list-style-type: none;
+    
+}
+.a{
+    text-decoration: none;
+    color: rgba(14,41,62,255);
+    font-weight:bold;
+    font-family: 'Inter';
+}
+.profile_image {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px; 
+    top: -15px; 
+}
+.Log_in_button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    top: -5px;
+    border: none;
+    background-color: rgba(58,95,123,255);
+}
+.container{
+    width: 95%;
+    height: 1000px;
+    /* background-color: rgb(37, 246, 145); */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+}
+.banar{
+    background-color: rgb(214,248,251,255);
+    width: 90%;
+    height: 350px;
+    border-radius: 10px;
+}
+.banar_text{
+    position: absolute;
+    /* background-color: blue; */
+    width: 40%;
+    height: 300px;
+}
+.banar_text_style{
+    position: absolute;
+    font-size: 75px;
+    top: -50px;
+    margin-left: 60px;
+}
+.banar_image{
+    /* background-color: aquamarine; */
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+}
+.banar_image_style{
+    width: 85%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.content{
+    top: 120px;
+    position: absolute;
+    background-color:rgb(214,248,251,255);
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+}
+.content_topic{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content_body{
+    font-size: 18px;
+    margin-left:80px ;
+    margin-right: 200px;
+}
+.content_sub_topic{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+.list{
+    margin-left: 80px;
+    margin-right: 200px;
+    font-size: 18px;
+}
+.click_me{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: aliceblue;
+    border: none;
+    background-color: rgba(58,95,123,255);
+    margin-left: 900px;
+    top: 550px;
+}
+.paybtn{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    background-color: rgba(58,95,123,255);
+    margin-left: 350px;
+    top: 500px;
+
+}

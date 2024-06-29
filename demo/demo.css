@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5EFF6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: #3A5F7B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #C9FFFF;
+    padding: 20px;
+    border-radius: 8px;
+    
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.profile-photo  {
+    width: 20%;
+    height: 200px;
+    /* border-radius: 50%; */
+    /* border: 2px solid #000; */
+    background-color: #C9FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-details, .ticket-details, .payment-details, .qr-code-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-details p, .ticket-details p, .payment-details p, .qr-code-details p {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.qr-code img {
+    width: 100px;
+    height: 100px;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #f2f2f2;
+}
+
+.calendar .used {
+    background-color: #ffcccc;
+    text-decoration: line-through;
+}
+.usepro{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(234, 200, 11); */
+}
+.useprodiv{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.profileImage{
+    width: 200px;
+    height: 200px;
+}
+.p1{
+    padding-bottom: 10px;
+}
+.d1 > p{
+    padding-bottom: 15px;
+}
+.ticketdetDiv{
+    /* background-color: #b6d9d9; */
+    display: flex;
+}
+.paymentdetDIv{
+    display: flex;
+}
+.qrcodeDv{
+    display: flex;
+}
